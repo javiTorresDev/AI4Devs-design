@@ -173,7 +173,7 @@ end note
 #### Beneficios para Reclutadores y Managers de Contratación
 - Facilita la toma de decisiones más rápida y basada en consenso, mejorando la eficiencia del proceso de reclutamiento.
 
-```mermaid
+```plantuml
 @startuml
 
 left to right direction
