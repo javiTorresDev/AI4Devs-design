@@ -90,7 +90,7 @@ Nuestro sistema ATS innovador ofrece un enfoque revolucionario para la gestión 
 Este sistema ATS no solo se posiciona como una herramienta eficiente para el reclutamiento, sino que redefine la manera en que las organizaciones atraen, evalúan y contratan talento, ofreciendo una ventaja competitiva sostenible en el mercado laboral actual.
 
 
-![Descripción de la imagen](lean_canvas.png)
+![Lean canvas](/assets/lean_canvas.png)
 
 
 [Ver diagrama Lean Canvas con más detalle](https://www.canva.com/design/DAGDmlhSKJw/O8r1UcfpOhW2iVfaJqjh3w/view?utm_content=DAGDmlhSKJw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
@@ -129,7 +129,10 @@ Este sistema ATS no solo se posiciona como una herramienta eficiente para el rec
 #### Beneficios para Managers de Contratación
 - Reciben una lista prefiltrada de candidatos, acelerando el proceso de selección.
 
-```plantuml
+
+![Caso de uso 1](/assets/caso_uso_1.png)
+
+<!-- ```plantuml
 @startuml
 ' Definición de estilo
 skinparam style strictuml
@@ -149,8 +152,8 @@ rectangle Sistema_ATS {
 }
 
 ' Relaciones
-Manager --> UC1 : Define criterios\ny recibe candidatos filtrados
-Reclutador --> UC1 : Utiliza filtrado para mejorar eficiencia
+Manager -> UC1 : Define criterios\ny recibe candidatos filtrados
+Reclutador -> UC1 : Utiliza filtrado para mejorar eficiencia
 
 ' Notas
 note right of UC1
@@ -166,13 +169,18 @@ note right of UC1
 end note
 
 @enduml
-```
+``` -->
+
 ### Caso de Uso 2: Colaboración en Tiempo Real
 #### Descripción
 - Reclutadores y managers de contratación utilizan una plataforma integrada para comunicarse y tomar decisiones en tiempo real sobre los candidatos.
 #### Beneficios para Reclutadores y Managers de Contratación
 - Facilita la toma de decisiones más rápida y basada en consenso, mejorando la eficiencia del proceso de reclutamiento.
 
+
+![Caso de uso 2](/assets/caso_uso_2.png)
+
+<!--
 ```plantuml
 @startuml
 
@@ -186,14 +194,15 @@ rectangle "Plataforma de Colaboración en Tiempo Real" {
     usecase (Tomar decisiones en consenso) as decidir
 }
 
-reclutador --> comunicarse
-manager --> comunicarse
+reclutador -> comunicarse
+manager -> comunicarse
 
-reclutador --> decidir
-manager --> decidir
+reclutador -> decidir
+manager -> decidir
 
 @enduml
 ```
+-->
 
 ### Caso de Uso 3: Acceso y Seguimiento de Candidatos
 #### Descripción
@@ -201,6 +210,9 @@ manager --> decidir
 #### Beneficios para Candidatos
 - Mejora la transparencia y la experiencia del candidato, haciendo el proceso más amigable y accesible.
 
+![Caso de uso 3](/assets/caso_uso_3.png)
+
+<!--
 ```plantuml
 @startuml
 
@@ -216,19 +228,23 @@ rectangle "Sistema de Acceso y Seguimiento de Candidatos" {
     usecase (Seguir estado de aplicaciones) as seguir
 }
 
-candidato --> acceder
-candidato --> actualizar
-candidato --> responder
-candidato --> seguir
+candidato -> acceder
+candidato -> actualizar
+candidato -> responder
+candidato -> seguir
 
-reclutador --> acceder
-reclutador --> seguir
+reclutador -> acceder
+reclutador -> seguir
 
 @enduml
 ```
+-->
 
 ## Modelo de datos
 
+![Modelo de datos](/assets/modelo_datos.png)
+
+<!--
 ```plantuml
 @startuml
 entity Usuario {
@@ -286,6 +302,7 @@ Aplicación }|--|| Entrevista
 Oferta_De_Trabajo }|--|| Aplicación
 @enduml
 ```
+-->
 
 #### Relaciones:
 
@@ -319,7 +336,9 @@ Se utiliza un enfoque basado en API RESTful para facilitar la comunicación entr
 - **Mantenimiento:** La descomposición del sistema en microservicios facilita la identificación y corrección de errores, así como la implementación de nuevas funcionalidades de forma modular y sin afectar al resto del sistema. Se emplean prácticas de desarrollo ágil y DevOps para garantizar una entrega continua y una rápida respuesta a los cambios y actualizaciones del sistema.
 
 
-```plantuml
+![Diagrama diseño sistema](/assets/diseño_sistema.png)
+
+<!--```plantuml
 @startuml
 
 skinparam rectangle {
@@ -350,20 +369,20 @@ rectangle "Messaging and APIs" {
 }
 
 ' Connections
-API --> Auth
-API --> UM
-API --> CP
-API --> IS
-API --> CI
-API --> DA
+API -> Auth
+API -> UM
+API -> CP
+API -> IS
+API -> CI
+API -> DA
 
-MQ --> CP
-MQ --> IS
-MQ --> DA
+MQ -> CP
+MQ -> IS
+MQ -> DA
 
-UM --> BCS
-CP --> SAP
-CP --> LMS
+UM -> BCS
+CP -> SAP
+CP -> LMS
 
 ' Legends and notes
 note right of API : REST API Gateway\nRoutes requests to services
@@ -371,6 +390,7 @@ note right of MQ : Supports asynchronous\ncommunication between services
 
 @enduml
 ```
+-->
 
 # Diagrama C4
 
@@ -380,8 +400,10 @@ Se muestra el diagrama C4 para el componente **Servicio de Procesamiento de Cand
 
 Mostramos cómo el sistema ATS interactúa con los usuarios y sistemas externos.
 
+![Diagrama C4 contexto](/assets/diagrama_c4_contexto.png)
 
 
+<!--
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
@@ -408,13 +430,18 @@ Rel(candidateProcessing, lms, "Consulta cursos realizados")
 Rel(candidateProcessing, sap, "Envía pruebas de habilidades")
 
 @enduml
-
 ```
+-->
 
 ## 2. Diagrama de Contenedores
 
 Ahora nos enfocaremos en cómo el servicio de procesamiento de candidatos está organizado dentro del sistema y cómo interactúa con otros contenedores.
 
+
+![Diagrama c4 contenedores](/assets/diagrama_c4_contenedores.png)
+
+
+<!--
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -440,12 +467,17 @@ Rel(candidateProcessing, messagingService, "Publica y consume mensajes")
 Rel(messagingService, candidateProcessing, "Mensajería asincrónica")
 
 @enduml
-
 ```
+-->
+
 ## 3. Diagrama de Componentes
 
 El diagrama siguiente detalla los componentes internos del Servicio de Procesamiento de Candidatos dentro del sistema ATS, mostrando cómo cada componente interactúa dentro del servicio y con otros servicios externos.
 
+
+![Diagrama c4 componentes](/assets/diagrama_c4_componentes.png)
+
+<!-- 
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
@@ -473,6 +505,7 @@ Rel(notificationSystem, messagingService, "Envía notificaciones asincrónicas")
 
 @enduml
 ```
+-->
 
 ### Descripción de los Componentes:
 
@@ -487,6 +520,9 @@ Rel(notificationSystem, messagingService, "Envía notificaciones asincrónicas")
 Describiré con más detalle cómo uno de los componentes está implementado en términos de código. Vamos a centrarnos en el componente Analizador de CVs. Este componente usa Python y técnicas de aprendizaje automático para analizar y extraer información relevante de los currículos vitae.
 
 
+![Diagrama c4 código](/assets/diagrama_c4_codigo.png)
+
+<!-- 
 ```plantuml
 @startuml
 
@@ -515,10 +551,10 @@ class DocumentPreprocessor {
     + preprocess_text(text : string) : spacy.tokens.Doc
 }
 
-CVParser "1" --> "1" DocumentPreprocessor : uses
-CVParser "1" --> "*" SkillExtractor : uses
-CVParser "1" --> "*" ExperienceExtractor : uses
-CVParser "1" --> "*" EducationExtractor : uses
+CVParser "1" - -> "1" DocumentPreprocessor : uses
+CVParser "1" - -> "*" SkillExtractor : uses
+CVParser "1" - -> "*" ExperienceExtractor : uses
+CVParser "1" - -> "*" EducationExtractor : uses
 
 note right of CVParser : Inicializa con modelo de spaCy y maneja el proceso de análisis del CV
 note bottom of SkillExtractor : Implementa extracción de habilidades usando patrones y NER
@@ -528,6 +564,7 @@ note bottom of DocumentPreprocessor : Preprocesa el texto para normalización y 
 
 @enduml
 ```
+-->
 
 ### Descripción de las Clases y Funciones:
 
