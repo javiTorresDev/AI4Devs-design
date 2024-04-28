@@ -90,7 +90,7 @@ Nuestro sistema ATS innovador ofrece un enfoque revolucionario para la gestión 
 Este sistema ATS no solo se posiciona como una herramienta eficiente para el reclutamiento, sino que redefine la manera en que las organizaciones atraen, evalúan y contratan talento, ofreciendo una ventaja competitiva sostenible en el mercado laboral actual.
 
 
-![Lean canvas](/assets/lean_canvas.png)
+![Lean canvas](assets/lean_canvas.png)
 
 
 [Ver diagrama Lean Canvas con más detalle](https://www.canva.com/design/DAGDmlhSKJw/O8r1UcfpOhW2iVfaJqjh3w/view?utm_content=DAGDmlhSKJw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
@@ -130,7 +130,7 @@ Este sistema ATS no solo se posiciona como una herramienta eficiente para el rec
 - Reciben una lista prefiltrada de candidatos, acelerando el proceso de selección.
 
 
-![Caso de uso 1](/assets/caso_uso_1.png)
+![Caso de uso 1](assets/caso_uso_1.png)
 
 <!-- ```plantuml
 @startuml
@@ -178,7 +178,7 @@ end note
 - Facilita la toma de decisiones más rápida y basada en consenso, mejorando la eficiencia del proceso de reclutamiento.
 
 
-![Caso de uso 2](/assets/caso_uso_2.png)
+![Caso de uso 2](assets/caso_uso_2.png)
 
 <!--
 ```plantuml
@@ -210,7 +210,7 @@ manager -> decidir
 #### Beneficios para Candidatos
 - Mejora la transparencia y la experiencia del candidato, haciendo el proceso más amigable y accesible.
 
-![Caso de uso 3](/assets/caso_uso_3.png)
+![Caso de uso 3](assets/caso_uso_3.png)
 
 <!--
 ```plantuml
@@ -242,7 +242,7 @@ reclutador -> seguir
 
 ## Modelo de datos
 
-![Modelo de datos](/assets/modelo_datos.png)
+![Modelo de datos](assets/modelo_datos.png)
 
 <!--
 ```plantuml
@@ -336,7 +336,7 @@ Se utiliza un enfoque basado en API RESTful para facilitar la comunicación entr
 - **Mantenimiento:** La descomposición del sistema en microservicios facilita la identificación y corrección de errores, así como la implementación de nuevas funcionalidades de forma modular y sin afectar al resto del sistema. Se emplean prácticas de desarrollo ágil y DevOps para garantizar una entrega continua y una rápida respuesta a los cambios y actualizaciones del sistema.
 
 
-![Diagrama diseño sistema](/assets/diseño_sistema.png)
+![Diagrama diseño sistema](assets/diseño_sistema.png)
 
 <!--```plantuml
 @startuml
@@ -400,7 +400,7 @@ Se muestra el diagrama C4 para el componente **Servicio de Procesamiento de Cand
 
 Mostramos cómo el sistema ATS interactúa con los usuarios y sistemas externos.
 
-![Diagrama C4 contexto](/assets/diagrama_c4_contexto.png)
+![Diagrama C4 contexto](assets/diagrama_c4_contexto.png)
 
 
 <!--
@@ -438,7 +438,7 @@ Rel(candidateProcessing, sap, "Envía pruebas de habilidades")
 Ahora nos enfocaremos en cómo el servicio de procesamiento de candidatos está organizado dentro del sistema y cómo interactúa con otros contenedores.
 
 
-![Diagrama c4 contenedores](/assets/diagrama_c4_contenedores.png)
+![Diagrama c4 contenedores](assets/diagrama_c4_contenedores.png)
 
 
 <!--
@@ -475,7 +475,7 @@ Rel(messagingService, candidateProcessing, "Mensajería asincrónica")
 El diagrama siguiente detalla los componentes internos del Servicio de Procesamiento de Candidatos dentro del sistema ATS, mostrando cómo cada componente interactúa dentro del servicio y con otros servicios externos.
 
 
-![Diagrama c4 componentes](/assets/diagrama_c4_componentes.png)
+![Diagrama c4 componentes](assets/diagrama_c4_componentes.png)
 
 <!-- 
 ```plantuml
@@ -520,7 +520,7 @@ Rel(notificationSystem, messagingService, "Envía notificaciones asincrónicas")
 Describiré con más detalle cómo uno de los componentes está implementado en términos de código. Vamos a centrarnos en el componente Analizador de CVs. Este componente usa Python y técnicas de aprendizaje automático para analizar y extraer información relevante de los currículos vitae.
 
 
-![Diagrama c4 código](/assets/diagrama_c4_codigo.png)
+![Diagrama c4 código](assets/diagrama_c4_codigo.png)
 
 <!-- 
 ```plantuml
