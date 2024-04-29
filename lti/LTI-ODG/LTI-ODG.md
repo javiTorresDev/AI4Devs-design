@@ -123,3 +123,41 @@ A continuación se muestra un diagrama tipo **Lean Canvas** con los siguientes e
 El siguiente diagrama muestra las entidades principales y sus relaciones en el contexto del sistema ATS que se está diseñando:
 
 ![Modelo de datos](./res/modelo-datos.jpeg)
+
+## Diseño del sistema a alto nivel
+A continuación se describe la arquitectura de alto nivel del sistema de ATS haciendo uso exclusivo de servicios en la nube de AWS:
+
+![Diagrama de alto nivel](./res/ast-diagrama-alto-nivel.png)
+
+### Frontend:
+* **Amazon CloudFront**: Como CDN, distribuirá el contenido estático y dinámico del frontend, mejorando la velocidad de carga y reduciendo la latencia.
+* **Amazon S3 Bucket**: Almacenará los archivos estáticos del frontend como HTML, CSS y JavaScript.
+
+### Backend:
+* **Elastic Load Balancing (ELB)**: Distribuirá el tráfico entrante entre las instancias EC2 para mejorar la disponibilidad y la tolerancia a fallos.
+* **Auto Scaling Group**: Asegurará que el número de instancias EC2 se ajuste automáticamente según la demanda para manejar la carga y mantener la escalabilidad.
+* **Amazon EC2**: Instancias para alojar la lógica de negocio del backend.
+* **Amazon RDS / Aurora**: Base de datos relacional gestionada que almacenará el modelo de datos del ATS y proporcionará alta disponibilidad y escalabilidad.
+* **Amazon ElastiCache**: Para caché en memoria, reducirá la carga en la base de datos y mejorará el rendimiento de las consultas frecuentes.
+
+### Integración y Comunicación:
+* **AWS Lambda**: Para ejecutar código en respuesta a eventos, como procesamiento de aplicaciones o tareas de automatización.
+* **Amazon SNS y SQS**: Para la mensajería y la comunicación asíncrona entre servicios, asegurando la entrega de mensajes y la desacoplamiento de componentes.
+
+### Seguridad:
+* **AWS Identity and Access Management (IAM)**: Para controlar el acceso a los recursos de AWS de manera segura.
+* **Amazon Cognito**: Para la gestión de usuarios y el control de acceso al frontend.
+* **AWS WAF y Shield**: Para proteger la aplicación de ataques web comunes y DDoS.
+
+### Almacenamiento y Procesamiento de Datos:
+* **Amazon S3**: Para almacenar datos no estructurados como currículums y otros documentos de los candidatos.
+* **AWS Glue**: Para transformación y carga de datos, permitiendo la integración con otras fuentes de datos.
+* **Amazon Redshift**: Para análisis de datos y generación de informes, escalable y optimizado para consultas SQL.
+
+### Escalabilidad y Disponibilidad:
+* La combinación de Auto Scaling, ELB y múltiples instancias EC2 garantizará la escalabilidad horizontal y la alta disponibilidad.
+* La replicación y la configuración de Aurora proporcionarán redundancia y recuperación ante fallos.
+
+### Mantenibilidad:
+* Utilización de servicios gestionados como RDS y Aurora reducirá la carga operativa en el mantenimiento de la base de datos.
+* Implementación de infraestructura como código (IaC) con AWS CloudFormation para facilitar la gestión y actualización de recursos.
