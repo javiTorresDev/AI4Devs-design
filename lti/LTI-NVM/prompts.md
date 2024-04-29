@@ -44,4 +44,44 @@ He hecho un pequeño estudio, y una de las mejores plataformas para esta gestió
 
 "Perfecto! podrías generarme ahora otro markdown con los prompts literales que te he enviado para que cualquier otro miembro de mi equipo pueda utilizarlos y lleguen al mismo resultado que yo?"
 
+## Prompts para Mejora de Modelos de Datos y Tecnologías
+
+### Prompt 9
+
+"Despues de una reunion con el equipo tengo varias mejoras que necesito que hagamos, empecemos con la primera:
+
+Aplicando la metodologia Lean Startup, quiero que contruyamos una buena base que haga diferenciarnos aporte valor. Por ejemplo en las ventajas competitivas, el "Soporte localizado" no se representa en el diseño"
+
+### Prompt 10
+
+"podrias hacer lo mismo con :
+
+- Personalización Avanzada
+- Integración con Herramientas
+- Precio Competitivo"
+
+### Prompt 11
+
+"Quiero que incluyas los 5 puntos que has descrito para Soporte Localizado, los 3 de Personalizacion Avanzada, los otros 3 de Integracion con Herramientas y los otros 3 de Precio Competitivo dentro de la documentacion de markdown como explicacion de cada uno de los puntos descrptos en Valor Añadido y Ventajas Competitivas"
+
+### Prompt 12
+
+"Este punto esta terminado, vayamos a por el siguiente:
+
+En nuestro documento de markdown no tenemos nada sobre los casos de usos y sus diagramas asociados, necesito que me los crees con detalle para poder presentarlos al equipo."
+
+### Prompt 13
+
+"Perfecto vayamos a por el siguiente punto a mejorar:
+
+El modelo de datos que tenemos actualmente es algo simple, necesitaria entidades claves como "entrevistador", hacer su diagrama y describir los tipos de cada atributo.
+
+La informacion que generes, añadela ya directamente al markdown para no tener que hacerlo en dos pasos."
+
+### Prompt 14
+
+"Por ultimo punto a mejorar seria el Diagrama C4:
+
+Detallame cuales serian las tecnologías, frameworks y librerías concretas que deberiamos utilizar para cumplir con los requisitos del proyecto, tenga un facil uso y aprendizaje, con una buena comunidad y soporte para que sea escalable y tenga un buen rendimiento y vaya en concordancia con las tendencias y demanda del mercado"
+
 #### Conversación completa: https://chat.openai.com/share/30c48a72-b8c8-4686-a735-0e8a7059c2b9
