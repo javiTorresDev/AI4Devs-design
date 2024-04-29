@@ -1,9 +1,14 @@
 # Sistema ATS (Applicant Tracking System)
 ## Índice
 
-* Descripción Breve
-* Valor Añadido y Ventajas Competitivas
-* Funciones Principales
+* [Descripción Breve](#descripción-breve)
+* [Valor Añadido y Ventajas Competitivas](#valor-añadido-y-ventajas-competitivas)
+* [Funciones Principales](#funciones-principales)
+* [Diagrama Lean Canvas](#diagrama-lean-canvas)
+* [Casos de uso principales](#casos-de-uso-principales)
+  * [Caso de Uso 1: Publicación de Vacantes](#caso-de-uso-1-publicación-de-vacantes)
+  * [Caso de Uso 2: Proceso de Selección de Candidatos](#caso-de-uso-2-proceso-de-selección-de-candidatos)
+  * [Caso de Uso 3: Integración con Herramientas de RRHH](#caso-de-uso-3-integración-con-herramientas-de-rrhh)
 
 ## Descripción Breve
 El Sistema ATS (Applicant Tracking System) es un software innovador diseñado para revolucionar el proceso de reclutamiento y contratación de personal en las empresas. Aprovecha las últimas tecnologías de automatización e inteligencia artificial para optimizar y agilizar todas las etapas, desde la publicación de vacantes hasta la selección final de candidatos.
@@ -42,3 +47,74 @@ El Sistema ATS (Applicant Tracking System) es un software innovador diseñado pa
 13. **Modelo de precios flexible**: Diferentes opciones de planes y precios adaptados al tamaño y necesidades de cada empresa, desde pequeñas empresas hasta grandes corporaciones.
 
 ## Diagrama Lean Canvas
+A continuación se muestra un diagrama tipo **Lean Canvas** con los siguientes elementos:
+
+1. Problema
+2. Segmento de clientes
+3. Solución
+4. Métricas clave
+5. Ventaja especial
+6. Canales
+7. Estructura de costos
+8. Fuentes de ingresos
+9. Alternativas existentes
+10. Primeros adoptantes
+
+![Lean Canvas](./res/ats-lean-canvas.jpg)
+
+## Casos de uso principales
+### Caso de Uso 1: Publicación de Vacantes
+1. **Roles de Usuario**:
+
+  * **Reclutador**: Publica nuevas ofertas de trabajo.
+  * **Manager de Contratación**: Aprueba las vacantes antes de su publicación.
+
+2. **Acciones**:
+* El Reclutador crea una nueva oferta de trabajo en el sistema.
+* El Manager de Contratación revisa y aprueba la oferta de trabajo.
+* Una vez aprobada, la vacante se publica automáticamente en los canales seleccionados.
+
+3. **Dependencias**:
+* La aprobación de la vacante por parte del Manager de Contratación es necesaria antes de la publicación.
+* El Reclutador debe estar autenticado en el sistema para crear y enviar la oferta de trabajo.
+
+**Diagrama de uso**:
+
+![Flujo publicación de vacante](./res/cu1-publicacion-vacantes.png)
+
+### Caso de Uso 2: Proceso de Selección de Candidatos
+
+1. **Roles de Usuario**:
+* **Candidato**: Aplica a las ofertas de trabajo y completa las evaluaciones requeridas.
+* **Reclutador**: Revisa las aplicaciones y selecciona candidatos para entrevistas.
+
+2. **Acciones**:
+* El Candidato se registra en el sistema, completa su perfil y aplica a las vacantes.
+* El Reclutador utiliza la IA para filtrar y clasificar las aplicaciones.
+* Los candidatos seleccionados son notificados y programados para entrevistas.
+
+3. **Dependencias**:
+* Los Candidatos deben registrarse y completar su perfil para aplicar a las vacantes.
+* El Reclutador necesita autenticarse para acceder a las aplicaciones y gestionar el proceso de selección.
+
+**Diagrama de uso**:
+
+![Flujo seleccion de candidatos](./res/cu2-seleccion-candidatos.png)
+
+### Caso de Uso 3: Integración con Herramientas de RRHH
+
+1. **Roles de Usuario**:
+* **Administrador de Sistemas**: Configura y mantiene la integración con otras herramientas de RRHH.
+* **Reclutador**: Utiliza las herramientas integradas para mejorar el proceso de reclutamiento.
+
+2. **Acciones**:
+* El Administrador de Sistemas establece conexiones con plataformas de RRHH externas.
+* El Reclutador accede a las herramientas integradas para realizar tareas como la evaluación de competencias o la verificación de antecedentes.
+
+3. **Dependencias**:
+* La configuración por parte del Administrador de Sistemas es necesaria para la integración funcional.
+* El Reclutador debe tener permisos adecuados para utilizar las herramientas integradas.
+
+**Diagrama de uso**:
+
+![Flujo integración con Herramientas de RRHH](./res/cu3-integracion-otras-htas.png)
