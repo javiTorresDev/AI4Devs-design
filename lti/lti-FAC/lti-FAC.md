@@ -19,13 +19,13 @@ LTI’s SaaS platform is designed to transform the recruitment process by provid
 
 ## LTI Business Model
 
-![LTI Business Model using Lean Canvas](business-model-lean-canvas.png)
+![LTI Business Model using Lean Canvas](res/business-model-lean-canvas.png)
 
 ### Main use cases 
 
 #### Automated Candidate Screening and Ranking
 
-![Use case diagram: Automated Candidate Screening and Ranking](uc-diagram-automated-candidate-screening-ranking.png)
+![Use case diagram: Automated Candidate Screening and Ranking](res/uc-diagram-automated-candidate-screening-ranking.png)
 
 **Use Case Description**: HR departments receive hundreds of applications for open positions. LTI’s platform automates the screening process by parsing resumes and matching qualifications against job requirements. It ranks candidates based on fit, ensuring that recruiters focus their attention on the most promising applicants.
 
@@ -36,7 +36,7 @@ LTI’s SaaS platform is designed to transform the recruitment process by provid
 
 #### Real-Time Communication and Collaboration
 
-![Use case diagram: Real-Time Communication and Collaboration](uc-diagram-real-time-communication-collaboration.png)
+![Use case diagram: Real-Time Communication and Collaboration](res/uc-diagram-real-time-communication-collaboration.png)
 
 **Use Case Description**: Coordinating between recruiters and hiring managers can often be cumbersome and slow, especially when decisions need swift communication. LTI’s platform provides tools for real-time messaging and updates, allowing seamless communication and collaboration directly on the platform.
 
@@ -47,7 +47,7 @@ LTI’s SaaS platform is designed to transform the recruitment process by provid
 
 #### Data-Driven Recruitment Strategy Optimization
 
-![Use case diagram: Data-Driven Recruitment Strategy Optimization](uc-diagram-data-driven-recruitment-strategy-optimization.png)
+![Use case diagram: Data-Driven Recruitment Strategy Optimization](res/uc-diagram-data-driven-recruitment-strategy-optimization.png)
 
 **Use Case Description**: Understanding the effectiveness of different recruitment strategies is crucial for continuous improvement. LTI’s platform offers comprehensive analytics and reporting features that track key metrics such as time-to-hire, cost-per-hire, and source effectiveness.
 
@@ -58,7 +58,7 @@ LTI’s SaaS platform is designed to transform the recruitment process by provid
 
 ### Database model
 
-![Database model](database-model.png)
+![Database model](res/database-model.png)
 
 ### High level architecture
 
@@ -134,4 +134,22 @@ The architecture is designed to ensure scalability, reliability, and performance
 
 ### Architectural diagram (with cloud deployment information)
 
-![Architectural diagram (with cloud deployment information)](architecture-diagram.png)
+![Architectural diagram (with cloud deployment information)](res/architecture-diagram.png)
+
+### C4 diagrams
+
+#### System Context view - Applicant Tracking System
+
+![System Context view - C4 Model](res/c1.png)
+
+#### Container view - Applicant Tracking System
+
+![Container view - C4 Model](res/c2.png)
+
+#### Component view - REST API
+
+![Component view - C4 Model](res/c3.png)
+
+#### Code view - AI Module
+
+![Code view - C4 Model](res/c4.png)
