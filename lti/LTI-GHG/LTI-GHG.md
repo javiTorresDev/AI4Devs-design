@@ -18,15 +18,17 @@ Un sistema de gestión de candidatos (ATS) es un software diseñado para optimiz
 
 ### Ventajas Competitivas:
 
-Integración con Plataformas de Redes Sociales y Job Boards: Maximiza la visibilidad de las ofertas de empleo y amplía el alcance a candidatos potenciales.
-Experiencia del Usuario Mejorada: Interfaces intuitivas y accesibles que mejoran tanto la experiencia del reclutador como la del candidato.
-Cumplimiento Normativo: Asegura que el proceso de reclutamiento cumpla con regulaciones legales y de privacidad, reduciendo el riesgo para la empresa.
-Funciones Principales
-Publicación de Ofertas de Empleo: Facilidad para publicar ofertas en múltiples plataformas desde un solo lugar.
-Recolección y Filtrado de Candidaturas: Automatización del proceso de recepción y filtrado de candidaturas basado en criterios preestablecidos.
-Gestión de Candidatos: Base de datos centralizada que permite el seguimiento y gestión eficiente de los candidatos a lo largo de todo el proceso de selección.
-Comunicación Automatizada: Envío de correos electrónicos automáticos para actualizaciones de estado y coordinación de entrevistas.
-Reportes y Análisis de Datos: Herramientas de reporte que permiten analizar la efectividad de las campañas de reclutamiento y tomar decisiones basadas en datos.
+- Integración con Plataformas de Redes Sociales y Job Boards: Maximiza la visibilidad de las ofertas de empleo y amplía el alcance a candidatos potenciales.
+- Experiencia del Usuario Mejorada: Interfaces intuitivas y accesibles que mejoran tanto la experiencia del reclutador como la del candidato.
+- Cumplimiento Normativo: Asegura que el proceso de reclutamiento cumpla con regulaciones legales y de privacidad, reduciendo el riesgo para la empresa.
+
+## Funciones Principales
+
+- Publicación de Ofertas de Empleo: Facilidad para publicar ofertas en mltiples plataformas desde un solo lugar.
+- Recolección y Filtrado de Candidaturas: Automatización del proceso de recepción y filtrado de candidaturas basado en criterios preestablecidos.
+- Gestión de Candidatos: Base de datos centralizada que permite el seguimiento y gestión eficiente de los candidatos a lo largo de todo el proceso de selección.
+- Comunicación Automatizada: Envío de correos electrónicos automáticos para actualizaciones de estado y coordinación de entrevistas.
+- Reportes y Análisis de Datos: Herramientas de reporte que permiten analizar la efectividad de las campañas de reclutamiento y tomar decisiones basadas en datos.
 
 ## Diagrama Lean Canvas
 
