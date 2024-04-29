@@ -103,7 +103,7 @@ rectangle "Sistema de Gestión de Candidatos" {
 @enduml
 ```
 
-[](./assets/casos_de_uso.png)
+![](./assets/casos_de_uso.png)
 
 ## Modelo de Datos
 
