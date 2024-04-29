@@ -103,6 +103,8 @@ rectangle "Sistema de Gestión de Candidatos" {
 @enduml
 ```
 
+[](./assets/casos_de_uso.png)
+
 ## Modelo de Datos
 
 El modelo de datos se compone de las siguientes entidades principales:
@@ -247,16 +249,17 @@ graph TD
 
 ```mermaid
 graph TB
-  subgraph Sistema [Sistema de Gestión de Candidatos]
-    ATS[System de Gestión de Candidatos (ATS)]
+  subgraph Sistema
+    ATS["Sistema de Gestión de Candidatos (ATS)"]
   end
-  Usuario_Reclutador[Reclutador]
-  Usuario_Candidato[Candidato]
-  Sistema_Externo[Sistemas Externos (Job Boards, APIs de terceros)]
+
+  Usuario_Reclutador(Reclutador)
+  Usuario_Candidato(Candidato)
+  Sistema_Externo["Sistemas Externos (Job Boards, APIs de terceros)"]
 
   Usuario_Reclutador -->|Usa| ATS
-  Usuario_Candidato -->|Usa| ATS
-  ATS -->|Conecta| Sistema_Externo
+  Usuario_Candidato -->|Aplica a través de| ATS
+  ATS -->|Se conecta con| Sistema_Externo
 ```
 
 - Nivel 2: Diagrama de Contenedores
