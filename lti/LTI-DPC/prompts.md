@@ -224,6 +224,7 @@ Bien, como eres experto en desarrollo entiendes que en cuanto a código lo mejor
 
 Resultados de documentation as code:
 
+* Lean Canvas
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" modified="2024-04-29T05:05:53.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="73NnlYZAqjXLWijjnk7b" type="device">
@@ -274,6 +275,7 @@ Resultados de documentation as code:
 </mxfile>
 ```
 
+* Use cases
 ```plantuml
 @startuml
 
@@ -347,6 +349,7 @@ rectangle "ATS de LTI" {
 @enduml
 ```
 
+* Data model
 ```plantuml
 @startuml
 
@@ -381,6 +384,7 @@ Candidate }o--|| Interview
 @enduml
 ```
 
+* High Level
 ```mermaid
 %%{init: {'themeVariables': { 'primaryColor': '#3498db', 'secondaryColor': '#f39c12', 'tertiaryColor': '#2ecc71', 'backgroundColor': '#ffffff', 'textColor': '#333333' }}}%%
 
@@ -391,7 +395,7 @@ flowchart TD
   A --> E[Seguridad y Acceso]
 ```
 
-
+* C4
 ```plantuml
 @startuml
 
