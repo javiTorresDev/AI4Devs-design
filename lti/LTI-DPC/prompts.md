@@ -221,3 +221,289 @@ Bien, ahora realiza la descripción del diagrama de componentes del backend y ba
 
 User
 Bien, como eres experto en desarrollo entiendes que en cuanto a código lo mejor es utilizar arquitectura hexagonal. Con esto en cuenta, ahora realiza la descripción del diagrama de código del backend, puede ser un diagrama de clases con el que se hará el diagrama c4.
+
+Resultados de documentation as code:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-04-29T05:05:53.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="73NnlYZAqjXLWijjnk7b" type="device">
+  <diagram id="KsK0L2idwev-dV4BAee5" name="Lean Canvas">
+    <mxGraphModel dx="1593" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="shape=partialRectangle;top=0;right=0;bottom=0;fillColor=#ffffff;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-90" y="130" width="940" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Problem&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt; la dificultad en la gestión de candidatos y la falta de eficiencia en el proceso de contratación&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#e84747;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;spacing=0;" parent="2" vertex="1">
+          <mxGeometry x="20" y="20" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Solution&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;La automatización de tareas de reclutamiento y la generación de informes de análisis de datos.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#f6ab44;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="260" y="20" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Key Metrics&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;El número de clientes, la tasa de retención y la satisfacción del cliente.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#f6e849;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="500" y="20" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Unique Value Proposition&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;Interfaz intuitiva, automatización inteligente y herramientas de análisis avanzadas.&lt;/span&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt; &lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#70e864;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="740" y="20" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Unfair Advantage&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;Enfoque en la personalización y escalabilidad.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#56b1f7;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="20" y="280" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Channels&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;background-color: rgb(33, 33, 33); color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap;&quot;&gt;arketing digital, asociaciones estratégicas y ventas directas.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#ff73fa;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="260" y="250" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Customer Segments&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;E&lt;/span&gt;&lt;span style=&quot;background-color: rgb(33, 33, 33); color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap;&quot;&gt;mpresas de diferentes tamaños y sectores.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#9bcaff;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="500" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Cost Structure&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;Desarrollo de software, soporte técnico y marketing.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#b5b5b5;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="740" y="150" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Revenue Streams&lt;br&gt;&lt;span style=&quot;color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space: pre-wrap; background-color: rgb(33, 33, 33);&quot;&gt;Suscripciones mensuales o anuales, tarifas por uso y servicios adicionales.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#c09eff;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="260" y="430" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Team" style="text;html=1;strokeColor=none;fillColor=#ff0000;align=center;verticalAlign=middle;fontSize=20;fontFamily=Arial;rounded=0;" parent="2" vertex="1">
+          <mxGeometry x="500" y="290" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=#ffffff;" parent="2" vertex="1">
+          <mxGeometry x="740" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+```
+
+```plantuml
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Usuario as User
+rectangle "ATS de LTI" {
+  usecase "Iniciar sesión" as UC1
+  usecase "Acceder al módulo de publicación" as UC2
+  usecase "Crear nueva oferta de empleo" as UC3
+  usecase "Publicar oferta de empleo" as UC4
+  usecase "Gestionar ofertas publicadas" as UC5
+
+  User --> UC1
+  User --> UC2
+  UC2 --> UC3
+  UC3 --> UC4
+  UC4 --> UC5
+  UC5 --> UC5 : Editar, pausar, eliminar
+}
+
+@enduml
+```
+
+```plantuml
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Usuario as User
+rectangle "ATS de LTI" {
+  usecase "Acceder al módulo de gestión de candidatos" as UC6
+  usecase "Revisar currículums de candidatos" as UC7
+  usecase "Aplicar filtros y criterios de selección" as UC8
+  usecase "Clasificar candidatos" as UC9
+  usecase "Registrar notas y comentarios" as UC10
+
+  User --> UC6
+  UC6 --> UC7
+  UC7 --> UC8
+  UC8 --> UC9
+  UC9 --> UC10
+}
+
+@enduml
+```
+
+```plantuml
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Usuario as User
+rectangle "ATS de LTI" {
+  usecase "Acceder al calendario de entrevistas" as UC11
+  usecase "Seleccionar candidatos preseleccionados" as UC12
+  usecase "Coordinar horarios y enviar invitaciones" as UC13
+  usecase "Realizar entrevistas y registrar resultados" as UC14
+  usecase "Realizar seguimiento de entrevistas" as UC15
+
+  User --> UC11
+  UC11 --> UC12
+  UC12 --> UC13
+  UC13 --> UC14
+  UC14 --> UC15
+}
+
+@enduml
+```
+
+```plantuml
+@startuml
+
+entity JobPosting {
+  + id: int
+  + title: string
+  + description: string
+  + requirements: string
+  + location: string
+}
+
+entity Candidate {
+  + id: int
+  + name: string
+  + email: string
+  + phone: string
+  + experience: string
+  + skills: string
+  + education: string
+}
+
+entity Interview {
+  + id: int
+  + date: date
+  + time: time
+  + notes: string
+}
+
+JobPosting ||--o{ Candidate
+Candidate }o--|| Interview
+
+@enduml
+```
+
+```mermaid
+%%{init: {'themeVariables': { 'primaryColor': '#3498db', 'secondaryColor': '#f39c12', 'tertiaryColor': '#2ecc71', 'backgroundColor': '#ffffff', 'textColor': '#333333' }}}%%
+
+flowchart TD
+  A[Interfaz de Usuario] --> B[Backend y Base de Datos]
+  B --> C[Integraciones Externas]
+  B --> D[Algoritmos de Inteligencia Artificial]
+  A --> E[Seguridad y Acceso]
+```
+
+
+```plantuml
+@startuml
+
+package "ATS LTI" {
+  [Usuario] -> (Interfaz de Usuario)
+  (Interfaz de Usuario) -> (Backend)
+  (Backend) -> (Base de Datos)
+  (Backend) --> (Algoritmos de IA)
+  (Backend) --> (Integraciones Externas)
+  (Backend) -> (Seguridad y Acceso)
+}
+
+@enduml
+```
+
+
+```plantuml
+@startuml
+
+package "ATS LTI" {
+  [Usuario] -> (Interfaz de Usuario)
+}
+
+package "Contenedores" {
+  [Backend]
+  [Base de Datos]
+}
+
+[Backend] -> [Base de Datos] : Almacena datos
+
+@enduml
+```
+
+```plantuml
+@startuml
+
+package "Contenedor: Backend" {
+  [Controlador API]
+  [Servicio de Gestión de Ofertas]
+  [Servicio de Gestión de Candidatos]
+  [Servicio de Autenticación]
+}
+
+package "Contenedor: Base de Datos" {
+  [Modelo de Datos]
+  [Conexión a la Base de Datos]
+}
+
+[Controlador API] --> [Servicio de Gestión de Ofertas] : Gestión de ofertas
+[Controlador API] --> [Servicio de Gestión de Candidatos] : Gestión de candidatos
+[Controlador API] --> [Servicio de Autenticación] : Autenticación de usuarios
+[Servicio de Gestión de Ofertas] --> [Modelo de Datos] : Acceso a datos
+[Servicio de Gestión de Candidatos] --> [Modelo de Datos] : Acceso a datos
+[Servicio de Autenticación] --> [Modelo de Datos] : Acceso a datos
+[Modelo de Datos] --> [Conexión a la Base de Datos] : Interacción con la base de datos
+
+@enduml
+```
+
+```plantuml
+@startuml
+
+package "Backend" {
+  class Application
+  class Config
+  class WebController
+  class AuthService {
+    + authenticateUser(username: String, password: String): User
+    + authorizeUser(user: User): boolean
+  }
+  class OfferService {
+    + createOffer(offerData: OfferData): Offer
+    + updateOffer(offerId: String, offerData: OfferData): Offer
+    + deleteOffer(offerId: String): void
+    + getOfferById(offerId: String): Offer
+    + getAllOffers(): List<Offer>
+  }
+  class CandidateService {
+    + createCandidate(candidateData: CandidateData): Candidate
+    + updateCandidate(candidateId: String, candidateData: CandidateData): Candidate
+    + deleteCandidate(candidateId: String): void
+    + getCandidateById(candidateId: String): Candidate
+    + getAllCandidates(): List<Candidate>
+  }
+  class Database {
+    + save(entity: Entity): void
+    + update(entity: Entity): void
+    + delete(entityId: String): void
+    + getById(entityId: String): Entity
+    + getAll(): List<Entity>
+  }
+  class Entity
+  class User
+  class Offer
+  class Candidate
+  class OfferData
+  class CandidateData
+}
+
+Application --> Config
+Application --> WebController
+WebController --> AuthService
+WebController --> OfferService
+WebController --> CandidateService
+AuthService --> Database
+OfferService --> Database
+CandidateService --> Database
+Entity <|-- User
+Entity <|-- Offer
+Entity <|-- Candidate
+OfferService <-- OfferData
+CandidateService <-- CandidateData
+
+@enduml
+```
