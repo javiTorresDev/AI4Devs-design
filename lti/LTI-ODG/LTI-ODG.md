@@ -118,3 +118,8 @@ A continuación se muestra un diagrama tipo **Lean Canvas** con los siguientes e
 **Diagrama de uso**:
 
 ![Flujo integración con Herramientas de RRHH](./res/cu3-integracion-otras-htas.png)
+
+## Modelo de datos
+El siguiente diagrama muestra las entidades principales y sus relaciones en el contexto del sistema ATS que se está diseñando:
+
+![Modelo de datos](./res/modelo-datos.jpeg)
