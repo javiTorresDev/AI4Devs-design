@@ -188,7 +188,7 @@ En este modelo de datos, tenemos las siguientes entidades principales:
 
 # Diseño del sistema a alto nivel:
 
-![LTI System Architecture](res/LTI_System_Architecture.png)
+![LTI System Architecture](res/lti_system_architecture.png)
 
 1. El frontend de la aplicación se desarrollará utilizando React y se alojará en Amazon S3, aprovechando su capacidad para alojar sitios web estáticos de forma escalable y rentable.
 
