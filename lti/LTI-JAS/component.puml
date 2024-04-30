@@ -1,0 +1,25 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/v2.0.1/C4_Component.puml
+
+System_Ext(candidates, "Módulo de Gestión de Candidatos") {
+  Container_Ext(app, "ATS App", "Aplicación Web ATS") {
+    Component_Ext(api, "API", "Maneja solicitudes HTTP")
+    Component_Ext(service, "Servicio de Candidatos", "Lógica de negocio") {
+      Component_Ext(controller, "Controlador", "Maneja solicitudes HTTP")
+      Component_Ext(repository, "Repositorio", "Acceso a la base de datos")
+      Component_Ext(mapper, "Mapper", "Transforma datos")
+    }
+    ContainerDb_Ext(db, "Base de Datos", "Almacena datos de candidatos")
+  }
+  Person_Ext(recruiter, "Reclutador", "Reclutadores y Managers")
+}
+
+Rel(recruiter, candidates, "Utiliza")
+Rel(candidates, app, "Contiene")
+Rel(app, api, "Realiza solicitudes")
+Rel(api, service, "Invoca")
+Rel(service, controller, "Controla")
+Rel(service, repository, "Accede a datos")
+Rel(service, mapper, "Transforma datos")
+Rel(repository, db, "Almacena datos")
+@enduml
