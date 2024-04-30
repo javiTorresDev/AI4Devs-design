@@ -1,0 +1,69 @@
+@startuml
+entity "Candidato" as candidate {
+  + ID del Candidato
+  --
+  Nombre Completo
+  Currículum Vitae
+  Información de Contacto
+  Experiencia Laboral
+  Educación
+  Habilidades
+}
+
+entity "Trabajo" as job {
+  + ID del Trabajo
+  --
+  Título del Trabajo
+  Descripción del Trabajo
+  Ubicación
+  Fecha de Publicación
+}
+
+entity "Entrevista" as interview {
+  + ID de la Entrevista
+  --
+  Fecha y Hora
+  Tipo de Entrevista
+  Entrevistador(es)
+  Notas de la Entrevista
+}
+
+entity "Reclutador" as recruiter {
+  + ID del Reclutador
+  --
+  Nombre Completo
+  Información de Contacto
+  Área de Responsabilidad
+}
+
+entity "Manager" as manager {
+  + ID del Manager
+  --
+  Nombre Completo
+  Información de Contacto
+  Equipo Asignado
+}
+
+entity "Oferta de Trabajo" as jobOffer {
+  + ID de la Oferta
+  --
+  Salario Ofrecido
+  Fecha de Vencimiento
+  Beneficios Adicionales
+}
+
+entity "Estado de la Aplicación" as appStatus {
+  + ID del Estado
+  --
+  Descripción del Estado
+}
+
+candidate -- job : Aplica a
+job -- interview : Programada para
+interview -- candidate : Realizada por
+recruiter -- job : Crea
+manager -- job : Revisa
+manager -- interview : Entrevistador
+job -- jobOffer : Genera
+candidate -- appStatus : Tiene
+@enduml

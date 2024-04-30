@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+actor "Reclutador" as recruiter
+actor "Manager" as manager
+actor "Sistema ATS" as ats
+
+rectangle "Funcionalidad Básica ATS" {
+  recruiter --> (Crear Trabajos)
+  recruiter --> (Revisar Aplicaciones)
+  recruiter --> (Programar Entrevistas)
+  manager --> (Revisar Aplicaciones)
+  manager --> (Programar Entrevistas)
+  ats --> (Crear Trabajos)
+  ats --> (Revisar Aplicaciones)
+  ats --> (Programar Entrevistas)
+}
+@enduml

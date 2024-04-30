@@ -1,0 +1,26 @@
+@startuml
+package "ATS System" {
+  [Gestión de Candidatos]
+  [Gestión de Trabajos]
+  [Entrevistas]
+  [Análisis e Informes]
+}
+
+database "Base de Datos" {
+  [Candidatos]
+  [Trabajos]
+  [Entrevistas]
+}
+
+cloud "Integraciones" {
+  [Sitios de Empleo]
+  [Herramientas de Videoentrevistas]
+}
+
+[Gestión de Candidatos] --> [Base de Datos] : Almacena datos
+[Gestión de Trabajos] --> [Base de Datos] : Almacena datos
+[Entrevistas] --> [Base de Datos] : Almacena datos
+[Análisis e Informes] --> [Base de Datos] : Consulta datos
+[Gestión de Trabajos] --> [Sitios de Empleo] : Publicación
+[Entrevistas] --> [Herramientas de Videoentrevistas] : Integración
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/v2.0.1/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+System_Ext(candidates, "Módulo de Gestión de Candidatos") {
+  Container_Ext(app, "ATS App", "Aplicación Web ATS") {
+    Component_Ext(api, "API", "Maneja solicitudes HTTP")
+    Component_Ext(service, "Servicio de Candidatos", "Lógica de negocio")
+    ContainerDb_Ext(db, "Base de Datos", "Almacena datos de candidatos")
+  }
+  Person_Ext(recruiter, "Reclutador", "Reclutadores y Managers")
+}
+
+Rel(Recruiter, Candidates, "Utiliza")
+Rel(Candidates, App, "Contiene")
+Rel(app, api, "Realiza solicitudes")
+Rel(api, service, "Invoca")
+Rel(service, db, "Almacena datos")
+@enduml
