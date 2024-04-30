@@ -161,3 +161,25 @@ A continuación se describe la arquitectura de alto nivel del sistema de ATS hac
 ### Mantenibilidad:
 * Utilización de servicios gestionados como RDS y Aurora reducirá la carga operativa en el mantenimiento de la base de datos.
 * Implementación de infraestructura como código (IaC) con AWS CloudFormation para facilitar la gestión y actualización de recursos.
+
+## Diagramas C4
+
+### Diagrama de contexto - nivel 1:
+Este diagrama muestra a los usuarios principales (**Candidato**, **Reclutador**, **Manager de Contratación**) y cómo interactúan con el sistema ATS. También muestra la integración del sistema ATS con sistemas externos como sistemas de RRHH, plataformas de empleo y servicios de email:
+
+![Diagrama de contexto](./res/c4-diagrama-contexto.png)
+
+### Diagrama de contenedores - nivel 2:
+Este diagrama de contenedores muestra cómo los usuarios (**Candidato**, **Reclutador**, **Manager de Contratación**) interactúan con la Aplicación Web ATS y cómo esta se comunica con los servicios de backend, autenticación y la API de integración. También se ilustra la interacción del sistema ATS con sistemas externos:
+
+![Diagrama de contenedores](./res/c4-diagrama-contenedores.png)
+
+### Diagrama de componentes - nivel 3:
+Este diagrama de componentes muestra los principales componentes dentro del servicio de backend ATS y cómo interactúan entre sí. Cada componente tiene una responsabilidad específica, como manejar solicitudes de usuario, gestionar vacantes, procesar aplicaciones de candidatos, autenticar usuarios, enviar notificaciones, y comunicarse con la base de datos y servicios de búsqueda:
+
+![Diagrama de componentes](./res/c4-diagrama-componentes.png)
+
+### Diagrama de código - nivel 4:
+Este diagrama de código se centra en el **Controlador de Aplicaciones** y muestra las clases o módulos que lo componen, como el modelo de aplicación, el servicio de aplicación, el repositorio de aplicaciones y el validador de aplicaciones. También se ilustran las interacciones y dependencias entre estos componentes, proporcionando una visión detallada de cómo se implementa la gestión de aplicaciones en el sistema ATS:
+
+![Diagrama de código](./res/c4-diagrama-codigo.png)
