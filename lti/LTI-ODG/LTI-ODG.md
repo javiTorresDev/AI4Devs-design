@@ -9,6 +9,14 @@
   * [Caso de Uso 1: Publicación de Vacantes](#caso-de-uso-1-publicación-de-vacantes)
   * [Caso de Uso 2: Proceso de Selección de Candidatos](#caso-de-uso-2-proceso-de-selección-de-candidatos)
   * [Caso de Uso 3: Integración con Herramientas de RRHH](#caso-de-uso-3-integración-con-herramientas-de-rrhh)
+* [Modelo de datos](#modelo-de-datos)
+* [Diseño del sistema de alto nivel](#diseño-del-sistema-a-alto-nivel)
+* [Diagramas C4](#diagramas-c4)
+  * [Diagrama de contexto - nivel 1](#diagrama-de-contexto---nivel-1)
+  * [Diagrama de contenedores - nivel 2](#diagrama-de-contenedores---nivel-2)
+  * [Diagrama de componentes - nivel 3](#diagrama-de-componentes---nivel-3)
+  * [Diagrama de código - nivel 4](#diagrama-de-código---nivel-4)
+* [Conclusiones](#conclusiones)
 
 ## Descripción Breve
 El Sistema ATS (Applicant Tracking System) es un software innovador diseñado para revolucionar el proceso de reclutamiento y contratación de personal en las empresas. Aprovecha las últimas tecnologías de automatización e inteligencia artificial para optimizar y agilizar todas las etapas, desde la publicación de vacantes hasta la selección final de candidatos.
@@ -183,3 +191,16 @@ Este diagrama de componentes muestra los principales componentes dentro del serv
 Este diagrama de código se centra en el **Controlador de Aplicaciones** y muestra las clases o módulos que lo componen, como el modelo de aplicación, el servicio de aplicación, el repositorio de aplicaciones y el validador de aplicaciones. También se ilustran las interacciones y dependencias entre estos componentes, proporcionando una visión detallada de cómo se implementa la gestión de aplicaciones en el sistema ATS:
 
 ![Diagrama de código](./res/c4-diagrama-codigo.png)
+
+## Conclusiones
+Hemos completado un recorrido exhaustivo por el diseño de un sistema de seguimiento de candidatos (ATS) utilizando el modelo C4 para visualizar su arquitectura. Comenzamos con el **diagrama de contexto**, que establece cómo el sistema ATS interactúa con usuarios y sistemas externos, proporcionando una visión general de alto nivel.
+
+Luego, profundizamos en el **diagrama de contenedores**, detallando las aplicaciones y servicios que componen el sistema, sus tecnologías subyacentes y cómo se comunican entre sí. Este nivel nos ayudó a entender la estructura y la distribución de las funcionalidades del sistema ATS.
+
+El siguiente paso fue el **diagrama de componentes**, donde desglosamos el servicio de backend ATS en sus componentes individuales, mostrando la responsabilidad de cada uno y cómo contribuyen al procesamiento de la lógica de negocio y la gestión de datos.
+
+Finalmente, con el **diagrama de código**, nos centramos en el Controlador de Aplicaciones, ilustrando las clases y módulos específicos que lo componen y cómo se implementan las operaciones críticas del sistema.
+
+A lo largo de este proceso, hemos asegurado que la arquitectura cumpla con los requisitos no funcionales de escalabilidad, seguridad, mantenibilidad y disponibilidad, utilizando servicios de AWS para una infraestructura robusta y confiable.
+
+Este trabajo sienta las bases para una documentación completa y un entendimiento claro del sistema ATS, facilitando futuras iteraciones, mantenimiento y escalabilidad del sistema.
