@@ -167,3 +167,47 @@ para tomar decisiones informadas basadas en datos.
 **Complejidad y Esfuerzo:** Se evalúa la cantidad de trabajo y los desafíos técnicos implicados en la implementación de cada historia. Algunas características, como la inteligencia artificial y los dashboards avanzados, son inherentemente más complejas.
 
 **Riesgos y Dependencias:** Incluyen la precisión y disponibilidad de los datos externos, la integración con otros sistemas, y la adopción de nuevas tecnologías que pueden tener sus propios desafíos y limitaciones.
+
+# Observación
+El asistente propone HUs que me resultan cada una complejas en su desarrollo y debería avanzar por lo menos hasta la HU 004 para tener un producto viable. Aqui cambio el enfoque (ver prompts-hus-md) y tengo el siguiente resultado
+
+# Épica 1: Publicación y Recepción de Candidaturas
+El objetivo de este MPV es permitir a las empresas publicar ofertas de empleo y recibir aplicaciones de forma efectiva.
+
+## Historias de Usuario Asociadas:
+
+**Publicación básica de empleos:** Como gerente de contratación, quiero publicar empleos en la plataforma para recibir candidaturas.
+
+*Recepción básica de aplicaciones:* Como gerente de contratación, quiero que las aplicaciones de los candidatos se almacenen eficientemente en la base de datos para su revisión posterior.
+
+# Épica 2: Filtrado y Organización de Candidatos
+Una vez que la publicación y recepción de aplicaciones estén en funcionamiento, el siguiente MPV se centrará en el filtrado y organización básica de candidatos.
+
+## Historias de Usuario Asociadas:
+
+**Filtrado básico de candidatos:** Como reclutador, quiero filtrar candidatos por palabras clave para encontrar rápidamente los perfiles que se ajusten a las necesidades del empleo.
+
+**Visualización de candidatos:** Como reclutador, quiero ver una lista organizada de candidatos para facilitar el proceso de revisión.
+
+# Épica 3: Coordinación de Entrevistas
+El tercer MPV se enfocará en la coordinación y gestión de entrevistas, facilitando el proceso de selección.
+
+## Historias de Usuario Asociadas:
+
+**Scheduling básico de entrevistas:** Como coordinador de contratación, quiero programar entrevistas automáticamente según la disponibilidad de los candidatos y entrevistadores.
+
+**Notificaciones de entrevistas:** Como coordinador de contratación, quiero que el sistema envíe notificaciones automáticas sobre las entrevistas a los candidatos y entrevistadores.
+
+# Épica 4: Evaluación de Candidatos
+Este MPV añade funcionalidades para la evaluación de candidatos, permitiendo una selección más detallada basada en competencias y ajuste cultural.
+
+## Historias de Usuario Asociadas:
+
+**Evaluaciones básicas en línea:** Como reclutador, quiero que los candidatos completen evaluaciones básicas en línea para verificar sus habilidades y competencias.
+
+# Épica 5: Análisis y Reportes del Proceso
+El último MPV en esta secuencia agrega capacidades analíticas para ayudar a los gerentes a entender y mejorar el proceso de reclutamiento.
+
+## Historias de Usuario Asociadas:
+
+**Dashboard básico de análisis:** Como director de recursos humanos, quiero acceder a un dashboard básico que muestre métricas clave sobre el proceso de reclutamiento para mejorar la toma de decisiones.
