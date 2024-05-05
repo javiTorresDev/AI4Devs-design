@@ -667,15 +667,20 @@ Para calcular el esfuerzo necesario para completar el backlog, sumamos los punto
 - **Evaluación del Ajuste Cultural y Entusiasmo a través del Análisis de Sentimiento:** 13 + 8 + 5 = 26 puntos
 
 Sumando todos los puntos obtenemos:
-$$ 16+26+16+21+26 = 105 \text{ puntos de historia total} $$
+
+$$16+26+16+21+26 = 105 \text{ puntos de historia total}$$
 
 Si asumimos que la velocidad del equipo es de 30 puntos por sprint, el número de sprints necesarios sería:
-$$ \text{Número de Sprints} = \frac{\text{Total de Puntos de Historia}}{\text{Velocidad del Equipo}} $$
-$$ \text{Número de Sprints} = \frac{105}{30} \approx 3.5 $$
+
+$$\text{Número de Sprints} = \frac{\text{Total de Puntos de Historia}}{\text{Velocidad del Equipo}}$$
+
+$$\text{Número de Sprints} = \frac{105}{30} \approx 3.5$$
 
 Después de agregar un buffer del 10% para imprevistos:
-$$ \text{Número de Sprints con Buffer} = 3.5 + (3.5 \times 0.10) $$
-$$ \text{Número de Sprints con Buffer} = 3.5 + 0.35 = 3.85 $$
+
+$$\text{Número de Sprints con Buffer} = 3.5 + (3.5 \times 0.10)$$
+
+$$\text{Número de Sprints con Buffer} = 3.5 + 0.35 = 3.85$$
 
 Redondeando hacia arriba, el número final de sprints necesarios sería 4.
 
