@@ -93,3 +93,48 @@ A continuación se observa el modelo de datos actualizado. Todo el desarrollo de
   * Desarrollar un módulo de análisis de sentimiento.
   * Integrar el análisis de sentimiento con el sistema de entrevistas.
   * Validar la precisión del análisis de sentimiento con pruebas de usuario.
+
+## Generación del Backlog del producto
+
+### Priorización del Backlog con base en las historias de usuario
+| Historia de Usuario ordenada por nivel de prioridad | Impacto y Valor | Urgencia | Complejidad y Esfuerzo | Riesgos y Dependencias | Madurez Tecnológica |
+|---------------------|-----------------|----------|------------------------|------------------------|---------------------|
+| 1. Análisis de CVs Automatizado | Alto | Alta | Media | Medio | Alta |
+| 2. Matching Inteligente de Candidatos | Alto | Media | Alta | Alto | Media |
+| 3. Chatbot para Pre-entrevistas | Medio | Media | Media | Medio | Alta |
+| 4. Análisis Predictivo para la Toma de Decisiones de Contratación | Alto | Baja | Alta | Alto | Baja |
+| 5. Evaluación del Ajuste Cultural y Entusiasmo a través del Análisis de Sentimiento | Medio | Baja | Alta | Alto | Baja |
+
+
+**Explicación de las Estimaciones**:
+
+* **Análisis de CVs Automatizado**:
+  * **Impacto y Valor**: Alto, ya que puede mejorar significativamente la eficiencia del proceso de selección.
+  * **Urgencia**: Alta, debido a la demanda del mercado por procesos de reclutamiento más rápidos.
+  * **Complejidad y Esfuerzo**: Media, existen herramientas de procesamiento de lenguaje natural que pueden ser adaptadas.
+  * **Riesgos y Dependencias**: Medio, considerando la variabilidad en la calidad de los CVs y la necesidad de ajustar continuamente los algoritmos de procesamiento de texto para diferentes formatos.
+  * **Madurez Tecnológica**: Alta, las herramientas de procesamiento de lenguaje natural están bien establecidas y son ampliamente utilizadas.
+* **Matching Inteligente de Candidatos**:
+  * **Impacto y Valor**: Alto, un buen sistema de matching puede ahorrar tiempo y recursos significativos.
+  * **Urgencia**: Media, es una característica deseable pero puede no ser tan crítica como el análisis de CV.
+  * **Complejidad y Esfuerzo**: Alta, debido a la necesidad de desarrollar algoritmos de IA robustos y manejar un gran volumen de datos.
+  * **Riesgos y Dependencias**: Alto, por la complejidad del desarrollo y la dependencia de la disponibilidad y calidad de los datos de habilidades y vacantes.
+  * **Madurez Tecnológica**: Media, los sistemas de recomendación existen pero su aplicación específica para matching de habilidades es menos común.
+* **Chatbot para Pre-entrevistas**:
+  * **Impacto y Valor**: Medio, es una mejora valiosa pero no esencial.
+  * **Urgencia**: Media, mejora la experiencia del usuario pero no es urgente.
+  * **Complejidad y Esfuerzo**: Media, los chatbots son bastante comunes.
+  * **Riesgos y Dependencias**: Medio, los chatbots pueden enfrentar desafíos con la interpretación de lenguaje natural.
+  * **Madurez Tecnológica**: Alta, los chatbots son una tecnología establecida con muchas plataformas disponibles.
+* **Análisis Predictivo para la Toma de Decisiones de Contratación**:
+  * **Impacto y Valor**: Alto, debido al potencial de mejorar la calidad de las contrataciones.
+  * **Urgencia**: Baja, es una funcionalidad avanzada y no esencial en las etapas iniciales.
+  * **Complejidad y Esfuerzo**: Alta, requiere modelos predictivos sofisticados y acceso a datos históricos y actualizados.
+  * **Riesgos y Dependencias**: Alto, debido a la necesidad de modelos predictivos precisos y la dependencia de datos históricos de calidad.
+  * **Madurez Tecnológica**: Baja, la analítica predictiva aplicada a la predicción del éxito de los candidatos es relativamente nueva y compleja.
+* **Evaluación del Ajuste Cultural y Entusiasmo a través del Análisis de Sentimiento**:
+  * **Impacto y Valor**: Medio, es una característica innovadora pero no crítica.
+  * **Urgencia**: Baja, es más un ‘nice-to-have’ que un ‘must-have’.
+  * **Complejidad y Esfuerzo**: Alta, debido a la necesidad de entender matices culturales y lingüísticos.
+  * **Riesgos y Dependencias**: Alto, por la complejidad de interpretar correctamente el sentimiento y las emociones a través de diferentes culturas e idiomas.
+  * **Madurez Tecnológica**: Baja, el análisis de sentimiento aplicado a entrevistas y ajuste cultural es un área emergente que requiere investigación y desarrollo significativos.
