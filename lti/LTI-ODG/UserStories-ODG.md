@@ -1,8 +1,20 @@
 # Backlog de producto ATS (Applicant Tracking System)
 
 ## Índice
-* [Modelo de datos actualizado](#modelo-de-datos-actualizado)
-
+* [Introducción al Backlog del Producto](#introducción-al-backlog-del-producto)
+* [Historias de usuario orientadas a las funcionalidades de IA](#historias-de-usuario-orientadas-a-las-funcionalidades-de-ia)
+  * [Análisis de CVs Automatizado](#análisis-de-cvs-automatizado)
+  * [Matching Inteligente de Candidatos](#matching-inteligente-de-candidatos)
+  * [Chatbot para Pre-entrevistas](#chatbot-para-pre-entrevistas)
+  * [Análisis Predictivo para la Toma de Decisiones de Contratación](#análisis-predictivo-para-la-toma-de-decisiones-de-contratación)
+  * [Evaluación del Ajuste Cultural y Entusiasmo a través del Análisis de Sentimiento](#evaluación-del-ajuste-cultural-y-entusiasmo-a-través-del-análisis-de-sentimiento)
+* [Generación del Backlog del producto](#generación-del-backlog-del-producto)
+  * [Priorización del Backlog con base en las historias de usuario](#priorización-del-backlog-con-base-en-las-historias-de-usuario)
+  * [Tickets de trabajo con su estimación de esfuerzo](#tickets-de-trabajo-con-su-estimación-de-esfuerzo)
+  * [Detalle de los tickets de trabajo](#detalle-de-los-tickets-de-trabajo)
+* [Generación de los Sprint Backlog](#generación-de-los-sprint-backlog)
+  * [Predicción del esfuerzo para completar el Backlog](#predicción-del-esfuerzo-para-completar-el-backlog)
+  * [Detalle de los Sprint Backlog](#detalle-de-los-sprint-backlog)
 
 ## Introducción al Backlog del Producto
 
